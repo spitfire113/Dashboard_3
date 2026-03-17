@@ -16,25 +16,12 @@ Dieses Dashboard wurde primär dafür entwickelt, Bankauszüge (insbesondere Spa
 
 ## 🛠️ Installation
 
-Stelle sicher, dass **Node.js** installiert ist.
+Stelle sicher, dass **Node.js** auf deinem Rechner installiert ist. (Das ist das einzige Programm, das du benötigst!)
 
-1.  Repository klonen oder herunterladen und in den Ordner wechseln:
-    ```bash
-    cd Dashboard_3
-    ```
-
-2.  Abhängigkeiten installieren:
-    ```bash
-    npm install
-    ```
-
-3.  Dashboard starten:
-    ```bash
-    npm run dev
-    ```
-
-4.  Das Dashboard ist nun unter [http://localhost:3000](http://localhost:3000) im Browser erreichbar.
-5.  *Beim ersten Start wird automatisch eine leere `database.sqlite` Datenbank im Hauptverzeichnis angelegt.*
+1.  Repository klonen oder herunterladen und entpacken.
+2.  Mache einen **Doppelklick auf die Datei `Start_Dashboard.bat`**.
+3.  *Lehn dich zurück!* Das Skript installiert beim allerersten Start automatisch alle nötigen Hintergrund-Pakete (Next.js, React, SQLite), startet den lokalen Server und öffnet das Dashboard direkt in deinem Standard-Browser.
+4.  *Beim ersten Start wird automatisch eine leere `database.sqlite` Datenbank im Hauptverzeichnis angelegt.*
 
 ## 💡 Nutzung & Workflow
 
