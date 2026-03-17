@@ -1,0 +1,24 @@
+.appContainer {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 2rem;
+    margin-left: var(--sidebar-width);
+    transition: margin-left var(--transition-normal);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .mainContent {
+        margin-left: 0;
+        padding: 1rem;
+        padding-top: calc(var(--header-height) + 1rem);
+        /* Space for mobile header */
+    }
+}
